@@ -56,9 +56,9 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="add_observation_tool.php" class="nav-link">
+                <a href="create_observation.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Add Observation Tool</p>
+                  <p>Create Observation</p>
                 </a>
               </li>
               <li class="nav-item">
