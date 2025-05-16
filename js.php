@@ -29,6 +29,8 @@
 <script src="assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="assets/dist/js/adminlte.js"></script>
+<!-- Summernote -->
+<script src="assets/plugins/summernote/summernote-bs4.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="assets/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->

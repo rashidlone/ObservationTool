@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="assets/plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
+  
+  <!-- summernote -->
+  <link rel="stylesheet" href="assets/plugins/summernote/summernote-bs4.min.css">  
+  
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
