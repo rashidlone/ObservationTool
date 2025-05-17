@@ -119,8 +119,8 @@
                     </td>
                     
                     <td>
-                        <a class="btn btn-outline-primary" href="javascript:edit_observation('id')"> Edit</a>
-                        <a class="btn btn-outline-danger" href="javascript:delete_observation('id')">Delete</a>
+                        <a class="btn btn-outline-primary" href="javascript:edit_observation_toolset('id')"> Edit</a>
+                        <a class="btn btn-outline-danger" href="javascript:delete_observation_toolset('id')">Delete</a>
                     </td>
                     
                   </tr>
@@ -183,7 +183,7 @@
 </script>
 
             <script type="text/javascript">
-                function edit_observation(id)
+                function edit_observation_toolset(id)
                 {                    
                     Swal.fire({
                         title: 'Are you sure you want to edit?',
@@ -198,17 +198,17 @@
                         {      
                             $.ajax({          
                                 type: "GET",
-                                url: "edit_observation.php",
+                                url: "edit_observation_toolset.php",
                                 data:'id='+id,               
                                 success: function(data){
-                                    window.location.href='edit_observation.php?id='+id;
+                                    window.location.href='edit_observation_toolset.php?id='+id;
                                 }
                             });        
                         }
                       });
                 }                                    
                  
-                function delete_observation(id)
+                function delete_observation_toolset(id)
                 {
                     Swal.fire({
                         title: 'Are you sure you want to delete this?',
@@ -223,7 +223,7 @@
                         {      
                             $.ajax({          
                                 type: "POST",
-                                url: "delete_observation.php",
+                                url: "delete_observation_toolset.php",
                                 data:'id='+id,               
                                 success: function(data){
                                 Swal.fire(
