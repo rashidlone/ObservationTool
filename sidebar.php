@@ -4,7 +4,7 @@
     <!-- Brand Logo -->
     <a href="dashboard.php" class="brand-link">
       
-        <span class="brand-text font-weight-light" style="color:white;"><b>Observation Tool</b></span>
+        <span class="brand-text font-weight-light" style="color:white;"><b>Observation Tool </b></span>
     </a>
 
     <!-- Sidebar -->
@@ -50,21 +50,19 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-arrow-right"></i>
               <p>
-                Observation Tool
+                Observation Toolset
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="create_observation.php" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Create Observation</p>
+                <a href="create_observation_toolset.php" class="nav-link">
+                  <p>Create Observation Toolset</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>View Observation Tool</p>
+                <a href="view_observation_toolset.php" class="nav-link">
+                  <p>View Observation Toolset</p>
                 </a>
               </li>
             </ul>
